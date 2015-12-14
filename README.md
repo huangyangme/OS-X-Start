@@ -16,6 +16,11 @@
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+## Install Redis
+
+    brew install redis
+
+
 
 ## Sublime Text
 
