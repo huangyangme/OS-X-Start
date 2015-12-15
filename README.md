@@ -20,6 +20,9 @@
 
     brew install redis
 
+## Install MySQL
+
+    brew install mysql
 
 
 ## Sublime Text
