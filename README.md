@@ -5,10 +5,6 @@
 
 	sudo trimforce enable
 
-## installing node & npm
-
-[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-
 
 ## Install Homebrew
 
@@ -24,6 +20,29 @@
 
     brew install mysql
 
+    // To have launchd start mysql at login:
+    ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+    // Then to load mysql now:
+    launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+    
+    // 执行安全选项（含设置密码）
+    mysql.server start
+    mysql_secure_installation
+
+
+## installing Node & NPM
+
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
+Or:
+
+    brew install node.
+
+## uninstall Node & NPM
+
+    brew uninstall node
+
+### [completely uninstall Node.js and reinstall from beginning (Mac OS X)](http://stackoverflow.com/questions/11177954/how-do-i-completely-uninstall-node-js-and-reinstall-from-beginning-mac-os-x)
 
 ## Sublime Text
 
