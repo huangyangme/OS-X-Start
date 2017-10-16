@@ -1,9 +1,4 @@
-#OS-X-Start
-
-
-## Mac 上对第三方 SSD 开启 TRIM 支持
-
-	sudo trimforce enable
+# OS-X-Start
 
 
 ## Install Homebrew
@@ -48,6 +43,10 @@ Or:
 
 [SublimeText-You-Need](https://github.com/huangyangme/SublimeText-You-Need)
 
+## Oh My ZSH!
+
+[Oh My ZSH!](http://ohmyz.sh/)
+
 ## 配置git别名
 
     $ git config --global alias.st status
@@ -62,6 +61,7 @@ Or:
 - [1Password 5](https://agilebits.com/onepassword)(密码管理)
 - [网易云音乐](http://music.163.com/#/download)（音乐）
 - [CodeKit](https://incident57.com/codekit/)（Web前端自动化神器，收费）
+- [IINA](https://lhc70000.github.io/iina/) (Mac上最好的视频播放器软件)
 - [Mac Blu-ray Player](http://www.macblurayplayer.com/)（蓝光视频播放器）
 - [AppCleaner](https://freemacsoft.net/appcleaner/)（卸载App）
 - [Annotate](https://www.driftt.com/annotate-mac)（截屏神器，App Store下载，收费）
